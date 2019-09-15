@@ -28,7 +28,7 @@ export const schoolInfo = { // term details section
             programLength: '3' // program length in months
         },
         { // for multiple examples of interest only, add items to interestOnly array
-            programName: 'the online program',
+            programName: 'the Intro to Web Development Online program',
             APR36: '10.71%',
             financeCharge36: '$2,839.04',
             IOPayment36: '$77.91',
@@ -90,7 +90,7 @@ export const faq = { // faq section
             colAmount: "$5,000"
         },
         {
-            programName: "Online program",
+            programName: "Intro to Web Development Online",
             maxAmount: "$12,000",
             col: false,
             colAmount: "$6,000"
@@ -114,14 +114,14 @@ export const headline = "Learn to Code at The Software Guild" // update headline
 
 export const leadContent = {
     header: "Your last step on the path toward changing your career",
-    paragraph: `${schoolName} offers in-person Java and .NET bootcamps as well as an online program to help students build a foundation for a career in software development. ${schoolName} partners with Skills Fund to offer tuition${faq.costOfLiving ? ' and cost of living' : ''} financing so more students like you can access their program.`
+    paragraph: `${schoolName} offers in-person Java and .NET bootcamps as well as an Intro to Web Development Online program to help students build a foundation for a career in software development. ${schoolName} partners with Skills Fund to offer tuition${faq.costOfLiving ? ' and cost of living' : ''} financing so more students like you can access their program.`
 }
 
 export const threeStepCardText = {
     step1: "",
     step2: {
         header: "select your program",
-        text: "Choose between the .NET Bootcamp, Java Bootcamp, and Online program."
+        text: "Choose between the .NET Bootcamp, Java Bootcamp, and Intro to Web Development Online programs."
     },
     step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`
 }
@@ -261,7 +261,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
           ]
     },
     {
-        name: "Online Program",
+        name: "Intro to Web Development Online",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKSGRM17",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 12000,
@@ -329,7 +329,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $13,750 for .NET Bootcamp and Java Bootcamp tuition, plus up to $5,000 for cost of living. Borrow up to $12,000 for online program tuition."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $13,750 for .NET Bootcamp and Java Bootcamp tuition, plus up to $5,000 for cost of living. Borrow up to $12,000 for Intro to Web Development Online tuition."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
