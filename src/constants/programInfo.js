@@ -150,15 +150,9 @@ export const faq = {
   loanRange: [
     {
       programName: ".NET Bootcamp and Java Bootcamp",
-      maxAmount: "$13,750",
-      col: true,
-      colAmount: "$5,000",
-    },
-    {
-      programName: "Intro to Web Development Online",
-      maxAmount: "$12,000",
+      maxAmount: "$10,000",
       col: false,
-      colAmount: "$6,000",
+      colAmount: "$5,000",
     },
   ],
 }
@@ -332,75 +326,6 @@ export const programLoanInfo = [
             apr60: 12.84,
           },
           "Immediate Repayment": null,
-        },
-      },
-    ],
-  },
-  {
-    name: "Intro to Web Development Online",
-    url: "https://my.skills.fund/application?lenderCode=SKSGRM17",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 12000,
-      loanTerm36: true,
-      loanTerm60: true,
-      "Interest Only": {
-        k: 13,
-        apr36: 11.07,
-        apr60: 12.6,
-      },
-      "Immediate Repayment": null,
-    },
-    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false,
-    showLoanTypes: false,
-    loanTypes: ["Interest Only"],
-    locations: ["Metro A", "Metro B", "Metro C"],
-    metros: [
-      {
-        location: "Metro A",
-        loanInfo: {
-          // match loanInfo to Program 3 loanInfo above
-          maxLoanAmt: 12000,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 13,
-            apr36: 11.07,
-            apr60: 12.6,
-          },
-          "Immediate Repayment": null,
-        },
-      },
-      {
-        location: "Metro B",
-        loanInfo: {
-          maxLoanAmt: 15545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 13,
-            apr36: 11.59,
-            apr60: 12.84,
-          },
-          "Immediate Repayment": null,
-        },
-      },
-      {
-        location: "Metro C",
-        loanInfo: {
-          maxLoanAmt: 20545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 6,
-            apr36: 11.59,
-            apr60: 12.84,
-          },
-          "Immediate Repayment": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
         },
       },
     ],
